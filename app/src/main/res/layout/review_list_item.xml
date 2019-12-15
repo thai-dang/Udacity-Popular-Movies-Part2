@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/extra_detail_padding_bottom"
+    android:paddingLeft="@dimen/extra_detail_padding_left"
+    android:paddingRight="@dimen/extra_detail_padding_right">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/authorText"
+        android:textSize="@dimen/movie_detail_text_size"
+        android:textColor="@color/colorText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/reviewText"
+        android:ellipsize="end"
+        android:textColor="@color/colorText"
+        android:maxLines="5"/>
+
+</LinearLayout>

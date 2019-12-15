@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Titles -->
+    <string name="app_name">Popular Movies</string>
+    <string name="title_activity_movie_details">Movie Details</string>
+    <string name="fake_name">Thai Dang</string>
+
+    <!-- UI Texts -->
+    <string name="action_settings">Settings</string>
+    <string name="sort_option_popularity">Most Popular</string>
+    <string name="sort_option_rated">Highest Rated</string>
+    <string name="sort_option_favorite">Favorites</string>
+    <string name="sort_menu">Sort By</string>
+    <string name="movie_list_title">Movies</string>
+    <string name="overview_header">Overview</string>
+    <string name="trailers_header">Trailers</string>
+    <string name="reviews_header">Reviews</string>
+    <string name="release_date_header">Release Date</string>
+    <string name="vote_average_header">Vote Average</string>
+    <string name="share_button">Share</string>
+    <string name="add_favorite_button">Add to favorites</string>
+    <string name="remove_favorite_button">Remove from favorites</string>
+
+    <!-- Runtime error messages -->
+    <string name="no_release_date_found">No release date was found</string>
+    <string name="no_description_found">No movie description was found</string>
+    <string name="no_movie_data_found">No movie data available</string>
+    <string name="no_trailers_found">No movie trailers available</string>
+    <string name="no_reviews_found">No movie reviews available</string>
+    <string name="no_internet_connection">Please check internet connection</string>
+
+</resources>
